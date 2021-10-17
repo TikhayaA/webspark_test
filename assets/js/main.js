@@ -4,7 +4,6 @@ $(document).ready(() => {
         autoclose: true
     });
     $('.calendar-btn_clear').click(function () {
-        console.log(this);
         $(this).prev().val('');
     });
     $('.main__sort-list').click(function () {

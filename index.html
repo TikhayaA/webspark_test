@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='robots' content='noindex, nofollow'/>
+    <link href="assets/style/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link href="assets/style/bootstrap-datepicker3.min.css" rel="stylesheet">
+    <link href="assets/style/style.css" rel="stylesheet">
+    <title>Test</title>
+</head>
+<body>
+   <header class="header">
+       <div class="container-block header__wrap">
+           <div class="header__logo"><img src="assets/img/logo.png" alt=""></div>
+           <div class="header__wrap-information">
+               <div class="header__title">
+                   <p>monblanproject</p>
+                   <p>Start on  17-02-2016</p>
+                   <div></div>
+               </div>
+               <div class="header__statistics">
+                   <div>
+                        <span>870</span> 
+                        <span>posts</span>
+                    </div>
+                    <div>
+                        <span>11,787 </span> 
+                        <span>followers</span>
+                    </div>
+                    <div>
+                        <span>112</span> 
+                        <span>following</span>
+                    </div>
+               </div>
+               <div class="header__calendar-wrap">
+                    <div class="calendar-title">Date</div>
+                   <div class="calendar">
+                       <input type="text" value="from" placeholder="from" class="calendar-datepicker">
+                       <div class="calendar-btn calendar-btn_clear"><img src="assets/icons/cross.svg"></div>
+                       <div class="calendar-btn calendar-btn_open"><img src="assets/icons/calendar.svg" alt=""></div>
+                    </div>
+                    <div class="calendar">
+                        <input type="text" value="to" placeholder="to" class="calendar-datepicker">
+                        <div class="calendar-btn calendar-btn_clear"><img src="assets/icons/cross.svg"></div>
+                        <div class="calendar-btn calendar-btn_open"><img src="assets/icons/calendar.svg" alt=""></div>
+                     </div>
+               </div>
+           </div>
+       </div>
+   </header>
+   <main class="main">
+       <section class="container-block">
+           <div class="main__sort">
+               <div class="main__sort-grip">
+                <svg class="main__sort-svg" width="24" height="22" focusable="false" data-prefix="fas" data-icon="th" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor" d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z">
+                </path>
+                </svg>
+               </div>
+               <div class="main__sort-list main__sort_active">
+                <svg class="main__sort-svg" width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="6" height="6" fill="#C8C7C7"/>
+                    <rect y="8" width="6" height="6" fill="#C8C7C7"/>
+                    <rect y="16" width="6" height="6" fill="#C8C7C7"/>
+                    <rect x="9" y="10" width="15" height="2" fill="#C8C7C7"/>
+                    <rect x="9" y="18" width="15" height="2" fill="#C8C7C7"/>
+                    <rect x="9" y="2" width="15" height="2" fill="#C8C7C7"/>
+                    </svg>
+               </div>
+               </div>
+           </div>
+           <div class="main__content-wrap">
+                <div class="content-block">
+                    <div class="content-block__img"><img src="assets/img/img1.png" alt="img1"></div>
+                    <div class="content-block__information-wrap">
+                        <div class="content-block__information">
+                            <div>Today</div>
+                            <div class="content-block__information-activity information-activity">
+                                <div class="information-activity__like">128</div>
+                                <div class="information-activity__comment">31</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information">
+                                <div>9-08-2016</div>
+                                <div class="content-block_information-activity information-activity">
+                                    <div class="information-activity__like">67</div>
+                                    <div class="information-activity__comment">22</div>
+                                </div>
+                            </div>
+                            <div class="content-block__information-upload">
+                                <div>Image upload</div>
+                                <div class="content-block__information-upload-date">11-04-2016</div>    
+                            </div>
+                    </div>
+                </div>
+                <div class="content-block">
+                <div class="content-block__img"><img src="assets/img/img2.png" alt="img2"></div>
+                <div class="content-block__information-wrap">
+                    <div class="content-block__information">
+                        <div>Today</div>
+                        <div class="content-block_information-activity information-activity">
+                            <div class="information-activity__like">128</div>
+                            <div class="information-activity__comment">31</div>
+                        </div>
+                    </div>
+                    <div class="content-block__information">
+                        <div>9-08-2016</div>
+                        <div class="content-block__information-activity information-activity">
+                            <div class="information-activity__like">67</div>
+                            <div class="information-activity__comment">22</div>
+                        </div>
+                    </div>
+                    <div class="content-block__information-upload">
+                        <div>Image upload</div>
+                        <div class="content-block__information-upload-date">11-04-2016</div>    
+                    </div>
+                </div>
+                </div>
+                <div class="content-block">
+                    <div class="content-block__img"><img src="assets/img/img3.png" alt="img3"></div>
+                    <div class="content-block__information-wrap">
+                        <div class="content-block__information">
+                            <div>Today</div>
+                            <div class="content-block_information-activity information-activity">
+                                <div class="information-activity__like">128</div>
+                                <div class="information-activity__comment">31</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information">
+                            <div>9-08-2016</div>
+                            <div class="content-block_information-activity information-activity">
+                                <div class="information-activity__like">67</div>
+                                <div class="information-activity__comment">22</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information-upload">
+                            <div>Image upload</div>
+                            <div class="content-block__information-upload-date">11-04-2016</div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="content-block">
+                    <div class="content-block__img"><img src="assets/img/img1.png" alt="img1"></div>
+                    <div class="content-block__information-wrap">
+                        <div class="content-block__information">
+                            <div>Today</div>
+                            <div class="content-block__information-activity information-activity">
+                                <div class="information-activity__like">128</div>
+                                <div class="information-activity__comment">31</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information">
+                            <div>9-08-2016</div>
+                            <div class="content-block__information-activity information-activity">
+                                <div class="information-activity__like">67</div>
+                                <div class="information-activity__comment">22</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information-upload">
+                            <div>Image upload</div>
+                            <div class="content-block__information-upload-date">11-04-2016</div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="content-block">
+                    <div class="content-block__img"><img src="assets/img/img4.png" alt="img4"></div>
+                    <div class="content-block__information-wrap">
+                        <div class="content-block__information">
+                            <div>Today</div>
+                            <div class="content-block__information-activity information-activity">
+                                <div class="information-activity__like">128</div>
+                                <div class="information-activity__comment">31</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information">
+                            <div>9-08-2016</div>
+                            <div class="content-block_information-activity information-activity">
+                                <div class="information-activity__like">67</div>
+                                <div class="information-activity__comment">22</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information-upload">
+                            <div>Image upload</div>
+                            <div class="content-block__information-upload-date">11-04-2016</div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="content-block">
+                    <div class="content-block__img"><img src="assets/img/img5.png" alt="img5"></div>
+                    <div class="content-block__information-wrap">
+                        <div class="content-block__information">
+                            <div>Today</div>
+                            <div class="content-block__information-activity information-activity">
+                                <div class="information-activity__like">128</div>
+                                <div class="information-activity__comment">31</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information">
+                            <div>9-08-2016</div>
+                            <div class="content-block__information-activity information-activity">
+                                <div class="information-activity__like">67</div>
+                                <div class="information-activity__comment">22</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information-upload">
+                            <div>Image upload</div>
+                            <div class="content-block__information-upload-date">11-04-2016</div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="content-block">
+                    <div class="content-block__img"><img src="assets/img/img6.png" alt="img6"></div>
+                    <div class="content-block__information-wrap">
+                        <div class="content-block__information">
+                            <div>Today</div>
+                            <div class="content-block__information-activity information-activity">
+                                <div class="information-activity__like">128</div>
+                                <div class="information-activity__comment">31</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information">
+                            <div>9-08-2016</div>
+                            <div class="content-block__information-activity information-activity">
+                                <div class="information-activity__like">67</div>
+                                <div class="information-activity__comment">22</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information-upload">
+                            <div>Image upload</div>
+                            <div class="content-block__information-upload-date">11-04-2016</div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="content-block">
+                    <div class="content-block__img"><img src="assets/img/img7.png" alt="img7"></div>
+                    <div class="content-block__information-wrap">
+                        <div class="content-block__information">
+                            <div>Today</div>
+                            <div class="content-block__information-activity information-activity">
+                                <div class="information-activity__like">128</div>
+                                <div class="information-activity__comment">31</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information">
+                            <div>9-08-2016</div>
+                            <div class="content-block__information-activity information-activity">
+                                <div class="information-activity__like">67</div>
+                                <div class="information-activity__comment">22</div>
+                            </div>
+                        </div>
+                        <div class="content-block__information-upload">
+                            <div>Image upload</div>
+                            <div class="content-block__information-upload-date">11-04-2016</div>    
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </section>
+       <div class="main__load-more">
+            <div class="load-more">LOAD MORE</div>
+       </div>
+   </main>
+   <div class="bg-right"><img src="assets/img/bg-l.png" alt=""></div>
+   <div class="bg-left"><img src="assets/img/bg-r.png" alt=""></div>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="assets/js/bootstrap-datepicker.min.js"></script>
+   <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+.main{
+    padding-bottom: 213px;
+    position: relative;
+    z-index: 1;
+    &__content-wrap{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &_list{
+            flex-direction: column;
+            margin-bottom: 33px;
+            .content-block{
+                flex-direction: row;
+                width: 100%;
+                margin-bottom: 8px;
+            }
+            .content-block__img{
+                img{
+                    width: 86px;
+                }
+            }
+            .content-block__information-wrap{
+                width: 100%;
+                padding: 16px 30px 20px;
+                >div{
+                    width: 33%;
+                }
+            }
+            .information-activity{
+                display: flex;
+                flex-direction: row;
+                margin-top: 9px;
+            }
+            .information-activity__like{
+                margin: 0 19px 0 0;
+            }
+            .content-block .content-block__information-upload{
+                margin: 0;
+                flex-direction: column;
+                justify-content: flex-start;
+                font-size: 16px;
+            }
+            .content-block__information-upload-date{
+                margin-top: 9px;
+                font-size: 14px;
+                width: 100%;
+            }
+        }
+    }
+    &__load-more{
+        display: flex;
+        justify-content: center;
+    }
+    &__sort{
+        display: flex;
+        justify-content: flex-end;
+        margin: 18px 0 20px;
+        .main__sort-svg{
+            path{
+                fill: #C8C7C7;
+            }
+        }
+        &_active{
+            .main__sort-svg{
+                rect{
+                    fill:$additionalColor;
+                }
+                path{
+                    fill:$additionalColor;
+                }
+            }
+        }
+    }
+    &__sort-grip{
+        .main__sort-svg{
+            @media screen and (min-width: 300px) and (max-width: 650px){
+                path{
+                    fill:$additionalColor;
+                }
+             }
+        }
+    }
+    &__sort-list{
+        margin-left: 21px;
+        @media screen and (max-width: 650px){
+            display: none;
+        }
+    }
+}

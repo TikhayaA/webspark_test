@@ -1,0 +1,25 @@
+.information-activity{
+    &__like{
+        position: relative;
+        padding-left: 27px;
+        &:after{
+            position: absolute;
+            content: url('../icons/like.svg');
+            width: 15px;
+            height: 13px;
+            left: 4px;
+        }
+    }
+    &__comment{
+        position: relative;
+        padding-left: 27px;
+        margin-bottom: 9px;
+        &:after{
+            position: absolute;
+            content: url('../icons/comment.svg');
+            width: 15px;
+            height: 13px;
+            left: 4px;
+        }
+    }
+}

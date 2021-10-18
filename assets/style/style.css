@@ -175,6 +175,8 @@ body {
       .header__calendar-wrap {
         flex-direction: column;
         align-items: flex-start; } }
+    .header__calendar-wrap > :nth-child(2) {
+      margin-right: 22px; }
 
 .main {
   padding-bottom: 213px;
@@ -195,13 +197,20 @@ body {
         width: 86px; }
       .main__content-wrap_list .content-block__information-wrap {
         width: 100%;
-        padding: 16px 30px 20px; }
-        .main__content-wrap_list .content-block__information-wrap > div {
-          width: 33%; }
+        padding: 16px 30px 4px; }
+        .main__content-wrap_list .content-block__information-wrap > :nth-child(1) {
+          width: 39%; }
+        .main__content-wrap_list .content-block__information-wrap > :nth-child(2) {
+          width: 40%; }
+        .main__content-wrap_list .content-block__information-wrap > :nth-child(3) {
+          width: 19%; }
+          @media screen and (min-width: 600px) and (max-width: 750px) {
+            .main__content-wrap_list .content-block__information-wrap > :nth-child(3) {
+              width: 21%; } }
       .main__content-wrap_list .information-activity {
         display: flex;
         flex-direction: row;
-        margin-top: 9px; }
+        margin-top: 1px; }
       .main__content-wrap_list .information-activity__like {
         margin: 0 19px 0 0; }
       .main__content-wrap_list .content-block .content-block__information-upload {
@@ -210,7 +219,7 @@ body {
         justify-content: flex-start;
         font-size: 16px; }
       .main__content-wrap_list .content-block__information-upload-date {
-        margin-top: 9px;
+        margin-top: 2px;
         font-size: 14px;
         width: 100%; }
   .main__load-more {
@@ -266,7 +275,7 @@ body {
   .content-block__img img {
     width: 100%; }
   .content-block__information-wrap {
-    padding: 12px 12px 18px;
+    padding: 12px 12px 11px;
     display: flex;
     flex-wrap: wrap; }
     .content-block__information-wrap > :nth-child(1) {
@@ -278,20 +287,23 @@ body {
       margin: 8px 0 0; }
   .content-block__information {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    font-weight: 500; }
   .content-block__information-activity {
     font-size: 14px; }
   .content-block__information-upload {
     display: flex;
     justify-content: space-between;
-    font-size: 14px; }
+    font-size: 14px;
+    font-weight: 500; }
   .content-block__information-upload-date {
     font-size: 12px;
     width: 37%; }
 
 .information-activity__like {
   position: relative;
-  padding-left: 27px; }
+  padding-left: 27px;
+  margin: 3px 0 4px; }
   .information-activity__like:after {
     position: absolute;
     content: url("../icons/like.svg");
@@ -312,7 +324,7 @@ body {
 .calendar {
   height: 28px;
   position: relative;
-  width: 40%; }
+  width: 168px; }
   @media all and (max-width: 567px) {
     .calendar {
       width: 90%;

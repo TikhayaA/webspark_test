@@ -2,6 +2,7 @@
     &__like{
         position: relative;
         padding-left: 27px;
+        margin: 3px 0 4px;
         &:after{
             position: absolute;
             content: url('../icons/like.svg');

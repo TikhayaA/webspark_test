@@ -21,15 +21,24 @@
             }
             .content-block__information-wrap{
                 width: 100%;
-                padding: 16px 30px 20px;
-                >div{
-                    width: 33%;
+                padding: 16px 30px 4px;
+                >:nth-child(1){
+                    width: 39%;
+                }
+                >:nth-child(2){
+                    width: 40%;
+                }
+                >:nth-child(3){
+                    width: 19%;
+                    @media screen and (min-width: 600px) and (max-width: 750px){
+                        width: 21%;
+                    }
                 }
             }
             .information-activity{
                 display: flex;
                 flex-direction: row;
-                margin-top: 9px;
+                margin-top: 1px;
             }
             .information-activity__like{
                 margin: 0 19px 0 0;
@@ -41,7 +50,7 @@
                 font-size: 16px;
             }
             .content-block__information-upload-date{
-                margin-top: 9px;
+                margin-top: 2px;
                 font-size: 14px;
                 width: 100%;
             }

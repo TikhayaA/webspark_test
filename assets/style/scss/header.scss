@@ -111,6 +111,9 @@
                 flex-direction: column;
                 align-items: flex-start;
             }
+            >:nth-child(2){
+                margin-right: 22px;
+            }
         }
     }
 }

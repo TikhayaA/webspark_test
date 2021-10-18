@@ -19,7 +19,7 @@
         }
     }
     &__information-wrap{
-        padding: 12px 12px 18px;
+        padding: 12px 12px 11px;
         display: flex;
         flex-wrap: wrap;
         >:nth-child(1){
@@ -36,6 +36,7 @@
     &__information{
         display: flex;
         flex-direction: column;
+        font-weight: 500;
     }
     &__information-activity{
         font-size: 14px;
@@ -44,6 +45,7 @@
         display: flex;
         justify-content: space-between;
         font-size: 14px;
+        font-weight: 500;
     }
     &__information-upload-date{
         font-size: 12px;

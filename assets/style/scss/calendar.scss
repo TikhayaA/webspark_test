@@ -1,5 +1,6 @@
 .calendar{
     height: 28px;
+    box-sizing: border-box;
     position: relative;
     width: 168px;
     @media all and (max-width: 567px) {
@@ -26,6 +27,7 @@
         padding: 6px 7px 5px;
         box-sizing: border-box;
         width: 100%;
+        height: 100%;
         cursor: pointer;
     }
     &-btn {

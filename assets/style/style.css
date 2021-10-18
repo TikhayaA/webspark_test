@@ -351,14 +351,15 @@ body {
     cursor: pointer; }
   .calendar-btn {
     background: #EBEBEB;
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid #DEDEDE;
     position: absolute;
-    top: 0; }
+    top: 0;
+    box-sizing: border-box; }
     .calendar-btn_open {
       right: 0;
       border-top-right-radius: 4px;

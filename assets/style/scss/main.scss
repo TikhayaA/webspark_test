@@ -6,6 +6,9 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        @media screen and (min-width: 730px) and (max-width: 1200px){
+            justify-content: flex-start;
+        }
         &_list{
             flex-direction: column;
             margin-bottom: 33px;

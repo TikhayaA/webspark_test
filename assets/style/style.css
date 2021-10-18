@@ -186,6 +186,9 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
+    @media screen and (min-width: 730px) and (max-width: 1200px) {
+      .main__content-wrap {
+        justify-content: flex-start; } }
     .main__content-wrap_list {
       flex-direction: column;
       margin-bottom: 33px; }
@@ -265,7 +268,9 @@ body {
   margin-bottom: 16px; }
   @media screen and (min-width: 730px) and (max-width: 1200px) {
     .content-block {
-      width: calc(30% - 8px); } }
+      width: calc(30% - 8px); }
+      .content-block:nth-child(3n + 2) {
+        margin: 0 calc(5% + 12px) 16px; } }
   @media screen and (min-width: 500px) and (max-width: 729px) {
     .content-block {
       width: calc(50% - 8px); } }
